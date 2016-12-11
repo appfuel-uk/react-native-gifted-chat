@@ -124,11 +124,16 @@ const styles = {
       alignItems: 'flex-start',
     },
     wrapper: {
-      borderRadius: 15,
-      backgroundColor: '#f0f0f0',
+      borderRadius: 7,
+      backgroundColor: '#17b8f4',
       marginRight: 60,
       minHeight: 20,
       justifyContent: 'flex-end',
+      paddingTop: 10,
+      paddingBottom: 10,
+      paddingLeft: 5,
+      paddingRight: 5,
+      minWidth: 250
     },
     containerToNext: {
       borderBottomLeftRadius: 3,
@@ -143,11 +148,14 @@ const styles = {
       alignItems: 'flex-end',
     },
     wrapper: {
-      borderRadius: 15,
-      backgroundColor: '#0084ff',
+      borderRadius: 7,
+      backgroundColor: '#fff',
       marginLeft: 60,
       minHeight: 20,
       justifyContent: 'flex-end',
+      minWidth: 250,
+      borderColor: '#cfeef9',
+      borderWidth: 2
     },
     containerToNext: {
       borderBottomRightRadius: 3,
