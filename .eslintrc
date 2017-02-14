@@ -1,12 +1,16 @@
 {
-  "extends": "cooperka/react-native",
-
-  "env": {
-    "browser": true,
-    "jest": true
+  "plugins": [
+    "react",
+    "react-native"
+  ],
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures" : {
+      experimentalObjectRestSpread: true
+    }
   },
-
-  // Any rules here will override those from
-  // https://github.com/cooperka/eslint-config-cooperka.
-  "rules": {}
+  "env": {
+    "node": true
+  }
 }
